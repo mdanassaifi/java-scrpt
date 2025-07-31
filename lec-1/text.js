@@ -1,4 +1,1 @@
-StyleSheet.registerStyleSheet({
-    name: "hy",
-    cssText: ".hy { color: blue; }"
-}); 
+console.log("Hello, World!");
