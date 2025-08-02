@@ -7,24 +7,26 @@
 // console.log("anas")
 
 
-let age = undefined
+// let age = undefined
 
-console.log(typeof age);
-console.log(typeof(age));
+// console.log(typeof age);
+// console.log(typeof(age));
 
-let valueinNumber = Number(age);
+// let valueinNumber = Number(age);
 
-console.log(typeof valueinNumber);
-console.log(valueinNumber);
+// console.log(typeof valueinNumber);
+// console.log(valueinNumber);
 
-let isLoggedIn = ""
+// let isLoggedIn = ""
 
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLoggedIn);
 
-let someNumber = 20
+// let someNumber = 20
 
-let stringNumber = String(someNumber);
+// let stringNumber = String(someNumber);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
