@@ -7,7 +7,7 @@
 // console.log("anas")
 
 
-let age = "33"
+let age = undefined
 
 console.log(typeof age);
 console.log(typeof(age));
@@ -15,3 +15,9 @@ console.log(typeof(age));
 let valueinNumber = Number(age);
 
 console.log(typeof valueinNumber);
+console.log(valueinNumber);
+
+let isLoggedIn = ""
+
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
