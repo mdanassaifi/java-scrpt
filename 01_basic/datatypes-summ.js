@@ -30,6 +30,7 @@ const myFunction = function () {
     console.log("hello world");
 };
 
+console.log(typeof BigInt);
 
 
 // refrence type ( non primitive datatypes ) 
