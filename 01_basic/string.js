@@ -6,3 +6,7 @@ const repocount = 20
 console.log(`My name is ${name} and I have ${repocount} repositories.`);
 
 const gamename = new String("Super Mario");
+
+
+const newstring = 'hello world';
+
