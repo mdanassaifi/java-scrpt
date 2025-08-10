@@ -16,4 +16,8 @@
 let myCreateDate = new Date("01-08-2025");
 // console.log(myCreateDate.toLocaleString());
 
+let mytimestamp = Date.now();
 
+// console.log(mytimestamp);
+// console.log(myCreateDate.getTime());
+console.log(Math.floor(Date.now()/1000));
