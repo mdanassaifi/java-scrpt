@@ -9,6 +9,7 @@
 
 // console.log(typeof myDate);
 
-let myCreateDate = new Date('2025-08-10');
-console.log(myCreateDate.toDateString());
+// let myCreateDate = new Date('2025-08-10');
+let myCreateDate = new Date('2025-08-10, 5:3');
+console.log(myCreateDate.toLocaleString());
 
