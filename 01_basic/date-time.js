@@ -13,11 +13,13 @@
 // let myCreateDate = new Date('2025-08-10, 5:3');
 // console.log(myCreateDate.toLocaleString());
 
-let myCreateDate = new Date("01-08-2025");
-// console.log(myCreateDate.toLocaleString());
+// let myCreateDate = new Date("01-08-2025");
+// // console.log(myCreateDate.toLocaleString());
 
-let mytimestamp = Date.now();
+// let mytimestamp = Date.now();
 
-// console.log(mytimestamp);
-// console.log(myCreateDate.getTime());
-console.log(Math.floor(Date.now()/1000));
+// // console.log(mytimestamp);
+// // console.log(myCreateDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
+
+
