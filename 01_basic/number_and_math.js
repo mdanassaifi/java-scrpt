@@ -30,4 +30,4 @@
 // console.log(Math.max(4.2, 4.8));
 
 console.log(Math.random());
-console.log(Math.random()*10);
+console.log((Math.random()*10) + 1);
