@@ -11,8 +11,11 @@ console.log(myArr[1]);
 // Array Methods
 
 
-myArr.push(6);
-myArr.push(7);
-myArr.pop();
+// myArr.push(6);
+// myArr.push(7);
+// myArr.pop();
+
+
+myArr.unshift(9);
 console.log(myArr);
 
