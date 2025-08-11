@@ -12,5 +12,7 @@ console.log(myArr[1]);
 
 
 myArr.push(6);
+myArr.push(7);
+myArr.pop();
 console.log(myArr);
 
