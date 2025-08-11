@@ -21,3 +21,8 @@ const dc = ['Superman', 'Batman', 'Wonder Woman', 'Flash', 'Green Lantern'];
 console.log(Array.isArray("MOHD ANAS"))
 console.log(Array.from("MOHD ANAS"));
 
+let score = 200
+let score2 = 400
+let score3 = 600
+
+console.log(Array.of(score, score2, score3));
