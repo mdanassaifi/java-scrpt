@@ -6,5 +6,9 @@ const dc = ['Superman', 'Batman', 'Wonder Woman', 'Flash', 'Green Lantern'];
 // console.log(marvel_heros);
 
 
-const all_heros = marvel_heros.concat(dc);
+// const all_heros = marvel_heros.concat(dc);
+// console.log(all_heros);
+
+
+const all_heros = [...marvel_heros, ...dc];
 console.log(all_heros);
