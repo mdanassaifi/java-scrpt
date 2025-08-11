@@ -13,15 +13,20 @@ const myarr2 = new Array(1, 2, 3, 4, 5)
 
 // myArr.push(6);
 // myArr.push(7); 
-// myArr.pop();
+// // myArr.pop();
 
 
-// myArr.unshift(9);
-// myArr.shift();
+// // myArr.unshift(9);
+// // myArr.shift();
 
 
-console.log(myArr.includes(4));
-console.log(myArr.indexOf(4));
+// console.log(myArr.includes(4));
+// console.log(myArr.indexOf(4));
+
+const newArr = myArr.join()
+
 
 console.log(myArr);
+console.log(newArr);
+
 
