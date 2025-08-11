@@ -1,4 +1,4 @@
 // Array
 
 
-const myArr = [1, 2, 3, 4, 5];
+const myArr = [0,1, 2, 3, 4, 5];
