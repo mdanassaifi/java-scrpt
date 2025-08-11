@@ -29,4 +29,10 @@ const myarr2 = new Array(1, 2, 3, 4, 5)
 // console.log(myArr);
 // console.log(newArr);
 
+// slice splice 
 
+const sliced = myArr.slice(1, 4);
+const spliced = myArr.splice(1, 2);
+
+console.log(sliced);
+console.log(spliced);
