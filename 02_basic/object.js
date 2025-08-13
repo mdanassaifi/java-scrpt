@@ -5,5 +5,10 @@
 const JsUser ={
     name: "Anas",
     age: 30,
-    email: "john@example.com"
+    Location: "New York",
+    email: "john@example.com",
+    isLoggedIn: false,
+    lastLoginDay: ["friday", "sunday"]
 }
+
+console.log(JsUser);
