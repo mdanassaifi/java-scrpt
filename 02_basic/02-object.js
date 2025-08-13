@@ -3,8 +3,22 @@
 // const tinderUser = new Object()  both are same work
 const tinderUser = {} 
 
-tinderUser.id = "123abc"
-tinderUser.name = "Anas"
-tinderUser.isLoggedIn = false
+// tinderUser.id = "123abc"
+// tinderUser.name = "Anas"
+// tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
+// console.log(tinderUser);
+
+const regularuser ={
+    email: "regularuser@example.com",
+    fullname: {
+        userfullname: {
+            firstname: "babu",
+            lastname: "jaan"
+        }
+    }
+}
+// console.log(regularuser.fullname);
+// console.log(regularuser.fullname.userfullname);
+
+
