@@ -16,6 +16,7 @@ const JsUser ={
 }
 
 console.log(JsUser);
+console.log(JsUser["Full Name "]);
 console.log(JsUser[mySym]);
 
 JsUser.email = "newemail@example.com";
