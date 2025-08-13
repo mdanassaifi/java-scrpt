@@ -48,8 +48,13 @@ const user = [
     },
 ]
 
-user[1].email
+// user[1].email
+
 console.log(tinderUser);
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty("id"));
+console.log(tinderUser.hasOwnProperty("age"));
+
