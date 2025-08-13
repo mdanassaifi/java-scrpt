@@ -16,3 +16,9 @@ const JsUser ={
 
 console.log(JsUser);
 console.log(JsUser[mySym]);
+
+JsUser.email = "newemail@example.com";
+Object.freeze(JsUser)
+JsUser.email = "anotheremail@example.com"
+console.log(JsUser);
+
