@@ -3,9 +3,9 @@
 // const tinderUser = new Object()  both are same work
 const tinderUser = {} 
 
-// tinderUser.id = "123abc"
-// tinderUser.name = "Anas"
-// tinderUser.isLoggedIn = false
+tinderUser.id = "123abc"
+tinderUser.name = "Anas"
+tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
@@ -30,5 +30,20 @@ const obj2= {3: "c", 4: "d"}
 
 // console.log(obj3);
 
-const mergedObj = {...obj1, ...obj2}
-console.log(mergedObj);
+const mergedObj = {...obj1, ...obj2} // best and new 
+// console.log(mergedObj);
+
+const user = [
+    {
+        id: 1,
+        email: "uas2gmail.com"
+    },
+    {
+        id: 2,
+        email: "user2@gmail.com"
+    },
+    {
+        id: 3,
+        email: "user3@gmail.com"
+    },
+]
