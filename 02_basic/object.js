@@ -6,6 +6,7 @@ const mySym = Symbol("mySymbol")
 
 const JsUser ={
     name: "Anas",
+    "Full Name ": "Mohd Aanas Saifi",
     [mySym]: "mySymbolValue",
     age: 30,
     Location: "New York",
@@ -32,3 +33,4 @@ JsUser.greetingtwo = function(){
 
 
 console.log(JsUser.greeting());
+console.log(JsUser.greetingtwo());
