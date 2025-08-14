@@ -72,3 +72,5 @@ const {courseInstructor} = course
 
 const {courseInstructor: instructor} = course //SHORT NAME 
 console.log(instructor);
+
+
