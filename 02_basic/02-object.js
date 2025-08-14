@@ -58,3 +58,11 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty("id"));
 console.log(tinderUser.hasOwnProperty("age"));
 
+
+
+const course = {
+    coursename: "js in hondi",
+    price:  "999",
+    courseInstructor: "John Doe"
+
+}
