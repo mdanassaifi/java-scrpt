@@ -50,13 +50,13 @@ const user = [
 
 // user[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("id"));
-console.log(tinderUser.hasOwnProperty("age"));
+// console.log(tinderUser.hasOwnProperty("id"));
+// console.log(tinderUser.hasOwnProperty("age"));
 
 
 
@@ -66,3 +66,9 @@ const course = {
     courseInstructor: "John Doe"
 
 }
+
+const {courseInstructor} = course
+// console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course //SHORT NAME 
+console.log(instructor);
