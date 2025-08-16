@@ -6,7 +6,7 @@ function myname() {
     console.log("S");
 }
 
-myname();
+// myname();
 
 
 // function addtwonumber(num1, num2){
@@ -21,4 +21,10 @@ function addtwonumber(num1, num2){
 }
 
 const result = addtwonumber(5, 10);
-console.log("Result: " + result);
+// console.log("Result: " + result);
+
+function LoginUserMessage(username){
+    return `${username} has logged in.`
+}
+
+console.log(LoginUserMessage("Anas"));
