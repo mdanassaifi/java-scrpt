@@ -9,8 +9,14 @@ function myname() {
 myname();
 
 
+// function addtwonumber(num1, num2){
+//     console.log(num1 + num2);
+// }
+
 function addtwonumber(num1, num2){
-    console.log(num1 + num2);
+    let result = num1 + num2
+    return result
 }
 
-addtwonumber(5, 10);
+const result = addtwonumber(5, 10);
+console.log("Result: " + result);
