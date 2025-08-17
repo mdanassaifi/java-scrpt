@@ -1,4 +1,4 @@
-
+// Global and local scope in javascript 
 
 if (true) {
     let a = 10
