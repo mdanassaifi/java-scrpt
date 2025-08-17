@@ -27,4 +27,20 @@ function LoginUserMessage(username){
     return `${username} has logged in.`
 }
 
-console.log(LoginUserMessage("Anas"));
+// console.log(LoginUserMessage("Anas"));
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 500, 600))
+
+
+const newArray = [200, 500, 600]
+
+function returnsecoundvalue(getArray){
+    return getArray[0]; 
+}
+
+// console.log(newArray);
+console.log(returnsecoundvalue(newArray));
