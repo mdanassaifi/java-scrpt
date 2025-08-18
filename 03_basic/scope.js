@@ -44,5 +44,5 @@ if (true){
 function addtone(num){
     return num + 1
 }
-addtone(5)
+console.log(addtone(5));
 
