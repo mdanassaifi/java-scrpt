@@ -4,7 +4,7 @@ if (true) {
     let a = 10
     const b = 20
     // var c = 30
-    console.log("inner: ", a);
+    // console.log("inner: ", a);
 }
 
 let a = 100
@@ -28,3 +28,14 @@ function one(){
 } 
 
 one()
+
+if (true){
+    const username = "anas"
+    if (username === "anas"){
+        const website = "youtube"
+        console.log(username + " ", website);
+    }
+}
+// console.log(website);
+
+// console.log(username);
