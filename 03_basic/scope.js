@@ -39,3 +39,10 @@ if (true){
 // console.log(website);
 
 // console.log(username);
+
+
+function addtone(num){
+    return num + 1
+}
+addtone(5)
+
