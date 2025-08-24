@@ -34,3 +34,5 @@ const user ={
 const addtwo = (num1, num2) => ({username: "anas"})
 
 console.log(addtwo(5, 89));
+
+
