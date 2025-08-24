@@ -9,8 +9,9 @@ const user ={
 
 // user.WelcomeMessage();
 
-function anas(){
-    console.log(this);
-}
+// function anas(){
+//     console.log(this);
+// }
 
-anas()
+// anas()
+
