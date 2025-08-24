@@ -7,4 +7,10 @@ const user ={
     }
 }
 
-user.WelcomeMessage();
+// user.WelcomeMessage();
+
+function anas(){
+    console.log(this);
+}
+
+anas()
