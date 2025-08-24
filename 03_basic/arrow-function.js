@@ -29,6 +29,8 @@ const user ={
 
 // const addtwo = (num1, num2) => num1 + num2
 
-const addtwo = (num1, num2) => (num1 + num2)  //react important 
+// const addtwo = (num1, num2) => (num1 + num2)  //react important 
+
+const addtwo = (num1, num2) => ({username: "anas"})
 
 console.log(addtwo(5, 89));
