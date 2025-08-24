@@ -15,3 +15,10 @@ const user ={
 
 // anas()
 
+// const anas = () => {
+//     let username = "Anas"
+//     console.log(this);
+    
+// }
+
+// anas()
