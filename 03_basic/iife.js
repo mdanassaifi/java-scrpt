@@ -8,4 +8,9 @@
 ( () => {
     console.log(`BASE`);
 
-})()
+})();
+
+( (user) => {
+    console.log(`BASE ${user}`);
+
+})("anas")
