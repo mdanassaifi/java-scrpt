@@ -1,9 +1,17 @@
 // if 
 
-if(true){
+// if(true){
 
+// }
+
+// if(false){
+
+// }
+
+const isUserLoggedIn = true;
+
+if (2 === "2"){
+    console.log("executed");
 }
 
-if(false){
-
-}
+// <,> <=, >=, ===, !== 
