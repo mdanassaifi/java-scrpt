@@ -5,3 +5,10 @@ if (userEmail === "user@example.com") {
 } else {
     console.log("User email is not verified");
 }
+
+
+// falsy values in JS
+// 0, "", null, undefined, NaN, BigInt(0), -0, false
+
+// truthy values in JS
+// "hello", 42, -42, 3.14, true, {}, []
