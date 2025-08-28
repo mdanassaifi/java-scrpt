@@ -37,11 +37,24 @@ const temperature = 25;
 
 
 
-const balance = 1000
-if (balance < 500) {
-    console.log("less than 500");
-} else if (balance < 750) { 
-    console.log("less than 750");
-} else {
-    console.log("less than 1200");
+// const balance = 1000
+// if (balance < 500) {
+//     console.log("less than 500");
+// } else if (balance < 750) { 
+//     console.log("less than 750");
+// } else {
+//     console.log("less than 1200");
+// }
+
+const UserLoggedIn = true;
+const debitcard = true;
+const loggedInfromgoogle = false;
+const loggedInfromemail = true;
+
+if (UserLoggedIn && debitcard) {
+    console.log("User can make a purchase");
+}
+
+if (loggedInfromgoogle || loggedInfromemail) {
+    console.log("User is logged in from Google or Email");
 }
