@@ -1,6 +1,6 @@
 let index = 0
 while (index <= 10) {
-    console.log(index);
+    // console.log(index);
     index = index + 2
 
 }
@@ -9,4 +9,4 @@ while (index <= 10) {
 do {
     console.log(index);
     index = index + 2
-} while (index <= 10)
+} while (index <= 10)p
