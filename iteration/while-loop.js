@@ -5,8 +5,8 @@ while (index <= 10) {
 
 }
 
-
+let score = 1
 do {
-    console.log(index);
-    index = index + 2
-} while (index <= 10)p
+    console.log(`score is ${score}`);
+    score++
+} while (score <= 10);
