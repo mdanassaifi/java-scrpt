@@ -58,5 +58,7 @@ for (const key in newobj) {
 const programmimg = {'js': 'javascript', 'html': 'html', 'css': 'css', 'react': 'react', 'node': 'node', 'git': 'git'}
 
 for (const key in programmimg) {
-    console.log(`${key} :-> ${programmimg[key]}`);
+    // console.log(`${key} :-> ${programmimg[key]}`);
 }
+
+
