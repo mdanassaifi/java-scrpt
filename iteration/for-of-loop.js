@@ -65,5 +65,10 @@ for (const key in programmimg) {
 const coding = ['js', 'javascript', 'html', 'html', 'css', 'css', 'react', 'react', 'node', 'node', 'git', 'git']
 
 coding.forEach( function (val) {
-    console.log(val); 
+    // console.log(val); 
 } )
+
+
+coding.forEach( (item) =>{
+    // console.log(item);
+})
