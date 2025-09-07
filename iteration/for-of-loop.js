@@ -72,3 +72,9 @@ coding.forEach( function (val) {
 coding.forEach( (item) =>{
     // console.log(item);
 })
+
+function printme(item) {
+    console.log(item);
+}
+
+coding.forEach(printme);
