@@ -27,5 +27,25 @@ map.set("key9", "value9");
 map.set("key10", "value10");
 
 for (const [key, value] of map) {
-    console.log(key, ':-', value);
+    // console.log(key, ':-', value);
+}
+
+const myobject = {
+    'game': 'cricket',
+    'sport': 'cricket',
+    'team': 'india',
+    'player': 'deepak'
+}
+
+for (const [key, value] of Object.entries(myobject)) {
+    // console.log(key, ':-', value);
+}
+
+const newobj = {
+    js: 'javascript',
+    html: 'html',
+    css: 'css',
+    react: 'react',
+    node: 'node',
+    git: 'git'
 }
