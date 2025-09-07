@@ -73,8 +73,12 @@ coding.forEach( (item) =>{
     // console.log(item);
 })
 
-function printme(item) {
-    console.log(item);
-}
+// function printme(item) {
+//     console.log(item);
+// }
 
-coding.forEach(printme);
+// coding.forEach(printme);
+
+coding.forEach((item, index, array) => {
+    console.log(item, index, array);
+} )
