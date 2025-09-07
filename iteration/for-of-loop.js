@@ -27,5 +27,5 @@ map.set("key9", "value9");
 map.set("key10", "value10");
 
 for (const [key, value] of map) {
-    console.log(key, value);
+    console.log(key, ':-', value);
 }
