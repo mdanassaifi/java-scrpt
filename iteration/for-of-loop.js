@@ -49,3 +49,7 @@ const newobj = {
     node: 'node',
     git: 'git'
 }
+
+for (const key in newobj) {
+    console.log(`${key} :-> ${newobj[key]}`);
+}
