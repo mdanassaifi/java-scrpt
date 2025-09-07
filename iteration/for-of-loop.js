@@ -80,5 +80,37 @@ coding.forEach( (item) =>{
 // coding.forEach(printme);
 
 coding.forEach((item, index, array) => {
-    console.log(item, index, array);
+    // console.log(item, index, array);
+} )
+
+
+const mycoding = [
+    {
+        languagename: 'js',
+        languagecode: 'javascript'
+    },
+    {
+        languagename: 'html',
+        languagecode: 'html'
+    },
+    {
+        languagename: 'css',
+        languagecode: 'css'
+    },
+    {
+        languagename: 'react',
+        languagecode: 'react'
+    },
+    {
+        languagename: 'node',
+        languagecode: 'node'
+    },
+    {
+        languagename: 'git',
+        languagecode: 'git'
+    }
+]
+
+mycoding.forEach( (item) =>{
+    console.log(item.languagename, item.languagecode);
 } )
