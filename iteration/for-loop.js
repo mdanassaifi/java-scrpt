@@ -53,4 +53,3 @@ for (let i = 1; i <= 20; i++) {
 // while loop
 // do while loop
 // loop with break
-//  loop with continue
