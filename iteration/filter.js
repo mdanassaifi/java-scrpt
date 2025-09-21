@@ -14,3 +14,5 @@ const books = [
 const filteredBooks = books.filter((book) => book.year > 2000);
 
 console.log(filteredBooks);
+
+
