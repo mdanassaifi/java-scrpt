@@ -14,3 +14,6 @@ const onlineBooks = [
 
 const totalPrice = onlineBooks.reduce((acc, book) => acc + book.price, 0);
 console.log(totalPrice);
+
+const totalPrice2 = onlineBooks.reduce((acc, book) => acc + book.price);
+console.log(totalPrice2);
